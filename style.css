@@ -1,3 +1,61 @@
 .contenedor{
-    border: 1px solid black;
+    
+    background-color: whitesmoke;
+    margin-left: 2%;
+    margin-right: 2%;
+    
 }
+body{
+    background-color: whitesmoke;
+}
+.references{
+    height: .5cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
+}
+.links{
+    margin-left: 0.70cm;
+    margin-right: 0.2cm;
+    width: 29%;
+    float: left;
+}
+a {
+    color: #5f4108;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover {
+    color:#fe00be; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+dialog{
+    width: 17cm;
+    height: 19cm;
+    border: 0px;
+
+}
+dialog::backdrop {
+    background: #4f3503a4;
+  }
+.center{
+    text-align: center;
+}
+p{
+    font-size: 5.5mm;
+}
+.fixedButton{
+    position: fixed;
+    top: 0px;
+    right: 0px; 
+    padding: 20px;
+    background-color: rgba(240, 255, 255, 0);
+    border: 1cm;
+    font-size: 2cm;
+    font-family: cloiste;
+}
+.centerImage{
+    margin: auto;
+    padding: 10px;
+}
+

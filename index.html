@@ -4,26 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coffee Shop</title>
+    <link rel="icon" type="image/x-icon" href="/imagenes/coffee-cup-logo-coffee-shop-icon-design-free-vector.jpg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script src="app.js"></script>
+    
     <div class="contenedor">
-        <header>
-            <h1>Coffee Shop</h1>
-        </header>
-        <nav>
-            <li>facebook</li>
-            <li>instagram</li>
-            <li>about we</li>
-        </nav>
-        <main>Coffee list</main>
-        <article>
-            <p>Nombre del producto</p>
-            <p>acerca del producto</p>
-            <P>ingredientes</P>
-        </article>
+        <div class="contenedor">
+            <header>
+                <h1 class="center">Our Humble Coffee Shop</h1>
+            </header>
+            
+            <main style="font-size: 1cm;">Coffee list</main>
+            <article>
+                
+                <li class="normal list">
+                    <button onclick="window.dialog.showModal();">Café latte</button>
+                    <dialog id="dialog">
+                        <form method="dialog">
+                            <button class="fixedButton"><img  src="/imagenes/x-transparent-free-png.png" alt=""></button>
+                            </form>
+                        <p style="font-size: 1.2cm;">Café Latte</p>
+                        <div style="text-align: center;"><img  src="/imagenes/9428203-9d140a4ed1424824a7ddd358e6161473.jpg" alt="" height="450px" width="450px"  ></div>
+                        
+                        <p ><strong>Acerca del producto</strong></p>
+                        <p>El café latte es el hermano mayor del capuchino, donde todo gira en torno a la espuma suave y sedosa. Normalmente, el café latte se prepara con una o dos dosis de expreso (1/3 de la bebida) y 2/3 de leche calentada con vapor, con una pequeña capa (alrededor de 1 cm) de espuma de leche. La textura de un café latte es muy importante, ya que aporta esa bella apariencia a la bebida.</p>
+                        <P>Ingredientes</P>
+                        <ul>
+                            <li>1/2 tazas de leche, fría</li>
+                            <li>1/2 tazas de agua, caliente</li>
+                            <li>2 cucharadas de café soluble</li>
+                            <li>1/2 tazas de leche, caliente</li>
+                            
+                        </ul>
+                        
+                     
+                    </dialog>
+                </li>
+              
+                
+            </article>
+            <nav>
+                <div class ="references">
+                    <div class ="links">
+                        
+                        <a target= "_blank" href="https://www.facebook.com/"><li style="font-size: 6mm;">Facebook</li></a>
+                    </div>
+                    <div class ="links">
+                        <a target= "_blank" href="https://www.instagram.com/"><li style="font-size: 6mm;">Instagram</li></a>
+                    </div>
+                    <div class ="links">
+                        <a target= "_blank" href="https://en.wikipedia.org/wiki/Nonsense"><li style="font-size: 6mm;">About Us</li></a>
+                    </div>
+                    
+                </div>
+               
+                
+                
+            </nav>
+        </div>
     </div>
 </body>
 </html>
